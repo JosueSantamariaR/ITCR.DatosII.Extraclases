@@ -1,0 +1,3 @@
+C:/Users/gabos/Documents/GitHub/ITCR.DatosII.Extraclases/Extraclases III/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gabos/Documents/GitHub/ITCR.DatosII.Extraclases/Extraclases III/cmake-build-debug/CMakeFiles/Extraclases_III.dir
+C:/Users/gabos/Documents/GitHub/ITCR.DatosII.Extraclases/Extraclases III/cmake-build-debug/CMakeFiles/rebuild_cache.dir

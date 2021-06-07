@@ -1,0 +1,8 @@
+//
+// Created by gabos on 6/6/2021.
+//
+
+#ifndef EXTRACLASES_III_HAMMING_H
+#define EXTRACLASES_III_HAMMING_H
+
+#endif //EXTRACLASES_III_HAMMING_H
