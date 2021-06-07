@@ -141,6 +141,33 @@ Extraclases_III/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclases_III.dir\build.make CMakeFiles/Extraclases_III.dir/build
 .PHONY : Extraclases_III/fast
 
+DetecciónParidad.obj: DetecciónParidad.cpp.obj
+
+.PHONY : DetecciónParidad.obj
+
+# target to build an object file
+DetecciónParidad.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclases_III.dir\build.make CMakeFiles/Extraclases_III.dir/DetecciónParidad.cpp.obj
+.PHONY : DetecciónParidad.cpp.obj
+
+DetecciónParidad.i: DetecciónParidad.cpp.i
+
+.PHONY : DetecciónParidad.i
+
+# target to preprocess a source file
+DetecciónParidad.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclases_III.dir\build.make CMakeFiles/Extraclases_III.dir/DetecciónParidad.cpp.i
+.PHONY : DetecciónParidad.cpp.i
+
+DetecciónParidad.s: DetecciónParidad.cpp.s
+
+.PHONY : DetecciónParidad.s
+
+# target to generate assembly for a file
+DetecciónParidad.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclases_III.dir\build.make CMakeFiles/Extraclases_III.dir/DetecciónParidad.cpp.s
+.PHONY : DetecciónParidad.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -177,6 +204,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Extraclases_III
+	@echo ... DetecciónParidad.obj
+	@echo ... DetecciónParidad.i
+	@echo ... DetecciónParidad.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

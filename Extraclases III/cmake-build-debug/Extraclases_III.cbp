@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/gabos/Documents/GitHub/ITCR.DatosII.Extraclases/Extraclases III/DetecciónParidad.cpp">
+			<Option target="Extraclases_III"/>
+		</Unit>
 		<Unit filename="C:/Users/gabos/Documents/GitHub/ITCR.DatosII.Extraclases/Extraclases III/DetecciónParidad.h">
 			<Option target="Extraclases_III"/>
 		</Unit>

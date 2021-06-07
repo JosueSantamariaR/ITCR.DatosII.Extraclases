@@ -3,4 +3,4 @@ project(Extraclases_III)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(Extraclases_III main.cpp DetecciónParidad.h Hamming.h)
+add_library(Extraclases_III main.cpp DetecciónParidad.h Hamming.h DetecciónParidad.cpp)

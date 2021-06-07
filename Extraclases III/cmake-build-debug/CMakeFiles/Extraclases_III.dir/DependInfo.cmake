@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/gabos/Documents/GitHub/ITCR.DatosII.Extraclases/Extraclases III/DetecciónParidad.cpp" "C:/Users/gabos/Documents/GitHub/ITCR.DatosII.Extraclases/Extraclases III/cmake-build-debug/CMakeFiles/Extraclases_III.dir/DetecciónParidad.cpp.obj"
   "C:/Users/gabos/Documents/GitHub/ITCR.DatosII.Extraclases/Extraclases III/main.cpp" "C:/Users/gabos/Documents/GitHub/ITCR.DatosII.Extraclases/Extraclases III/cmake-build-debug/CMakeFiles/Extraclases_III.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
