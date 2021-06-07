@@ -168,6 +168,33 @@ DetecciónParidad.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclases_III.dir\build.make CMakeFiles/Extraclases_III.dir/DetecciónParidad.cpp.s
 .PHONY : DetecciónParidad.cpp.s
 
+Hamming.obj: Hamming.cpp.obj
+
+.PHONY : Hamming.obj
+
+# target to build an object file
+Hamming.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclases_III.dir\build.make CMakeFiles/Extraclases_III.dir/Hamming.cpp.obj
+.PHONY : Hamming.cpp.obj
+
+Hamming.i: Hamming.cpp.i
+
+.PHONY : Hamming.i
+
+# target to preprocess a source file
+Hamming.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclases_III.dir\build.make CMakeFiles/Extraclases_III.dir/Hamming.cpp.i
+.PHONY : Hamming.cpp.i
+
+Hamming.s: Hamming.cpp.s
+
+.PHONY : Hamming.s
+
+# target to generate assembly for a file
+Hamming.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclases_III.dir\build.make CMakeFiles/Extraclases_III.dir/Hamming.cpp.s
+.PHONY : Hamming.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -207,6 +234,9 @@ help:
 	@echo ... DetecciónParidad.obj
 	@echo ... DetecciónParidad.i
 	@echo ... DetecciónParidad.s
+	@echo ... Hamming.obj
+	@echo ... Hamming.i
+	@echo ... Hamming.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

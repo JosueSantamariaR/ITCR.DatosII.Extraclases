@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Extraclases_III.dir/DetecciónParidad.cpp.obj"
+  "CMakeFiles/Extraclases_III.dir/Hamming.cpp.obj"
   "CMakeFiles/Extraclases_III.dir/main.cpp.obj"
   "libExtraclases_III.a"
   "libExtraclases_III.pdb"

@@ -101,19 +101,34 @@ CMakeFiles/Extraclases_III.dir/DetecciónParidad.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Extraclases_III.dir/DetecciónParidad.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\gabos\Documents\GitHub\ITCR.DatosII.Extraclases\Extraclases III\DetecciónParidad.cpp" -o CMakeFiles\Extraclases_III.dir\DetecciónParidad.cpp.s
 
+CMakeFiles/Extraclases_III.dir/Hamming.cpp.obj: CMakeFiles/Extraclases_III.dir/flags.make
+CMakeFiles/Extraclases_III.dir/Hamming.cpp.obj: ../Hamming.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\gabos\Documents\GitHub\ITCR.DatosII.Extraclases\Extraclases III\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Extraclases_III.dir/Hamming.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Extraclases_III.dir\Hamming.cpp.obj -c "C:\Users\gabos\Documents\GitHub\ITCR.DatosII.Extraclases\Extraclases III\Hamming.cpp"
+
+CMakeFiles/Extraclases_III.dir/Hamming.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Extraclases_III.dir/Hamming.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\gabos\Documents\GitHub\ITCR.DatosII.Extraclases\Extraclases III\Hamming.cpp" > CMakeFiles\Extraclases_III.dir\Hamming.cpp.i
+
+CMakeFiles/Extraclases_III.dir/Hamming.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Extraclases_III.dir/Hamming.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\gabos\Documents\GitHub\ITCR.DatosII.Extraclases\Extraclases III\Hamming.cpp" -o CMakeFiles\Extraclases_III.dir\Hamming.cpp.s
+
 # Object files for target Extraclases_III
 Extraclases_III_OBJECTS = \
 "CMakeFiles/Extraclases_III.dir/main.cpp.obj" \
-"CMakeFiles/Extraclases_III.dir/DetecciónParidad.cpp.obj"
+"CMakeFiles/Extraclases_III.dir/DetecciónParidad.cpp.obj" \
+"CMakeFiles/Extraclases_III.dir/Hamming.cpp.obj"
 
 # External object files for target Extraclases_III
 Extraclases_III_EXTERNAL_OBJECTS =
 
 libExtraclases_III.a: CMakeFiles/Extraclases_III.dir/main.cpp.obj
 libExtraclases_III.a: CMakeFiles/Extraclases_III.dir/DetecciónParidad.cpp.obj
+libExtraclases_III.a: CMakeFiles/Extraclases_III.dir/Hamming.cpp.obj
 libExtraclases_III.a: CMakeFiles/Extraclases_III.dir/build.make
 libExtraclases_III.a: CMakeFiles/Extraclases_III.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\gabos\Documents\GitHub\ITCR.DatosII.Extraclases\Extraclases III\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libExtraclases_III.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\gabos\Documents\GitHub\ITCR.DatosII.Extraclases\Extraclases III\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libExtraclases_III.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\Extraclases_III.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Extraclases_III.dir\link.txt --verbose=$(VERBOSE)
 

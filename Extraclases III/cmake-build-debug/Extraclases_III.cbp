@@ -86,6 +86,9 @@
 		<Unit filename="C:/Users/gabos/Documents/GitHub/ITCR.DatosII.Extraclases/Extraclases III/DetecciónParidad.h">
 			<Option target="Extraclases_III"/>
 		</Unit>
+		<Unit filename="C:/Users/gabos/Documents/GitHub/ITCR.DatosII.Extraclases/Extraclases III/Hamming.cpp">
+			<Option target="Extraclases_III"/>
+		</Unit>
 		<Unit filename="C:/Users/gabos/Documents/GitHub/ITCR.DatosII.Extraclases/Extraclases III/Hamming.h">
 			<Option target="Extraclases_III"/>
 		</Unit>
