@@ -1,0 +1,15 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+/home/garroakion/Desktop/Tareas/Extraclase_III/.idea
+/home/garroakion/Desktop/Tareas/Extraclase_III/cmake-build-debug
+/home/garroakion/Desktop/Tareas/Extraclase_IV/.idea
+/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug
+
+
