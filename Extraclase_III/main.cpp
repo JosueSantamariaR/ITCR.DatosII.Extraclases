@@ -8,17 +8,28 @@ using namespace std;
 int main() {
 
     DeteccionParidad dp;
+
+    cout<<"-------------------DecteccionParidad-----------------------------"<<endl;
+
+    if(dp.findParity(9) == 0){
+        cout << "Paridad par"<<endl;
+    }else{
+        cout << "Paridad impar"<<endl;
+    }
+
+    if(dp.findParity(13) == 0){
+        cout << "Paridad par"<<endl;
+    }else{
+        cout << "Paridad impar"<<endl;
+    }
+
+    cout<<"----------------------HammingCode-------------------------------"<<endl;
+
     Hamming hg;
-    (dp.findParity(9) == 0) ? cout << "Even Parity\n" :
-    cout << "Odd Parity\n";
-
-    (dp.findParity(13) == 0) ? cout << "Even Parity\n" :
-    cout << "Odd Parity\n";
-
-    vector<int> msgBit = { 0, 1, 0, 1 };
-
-    // Function Call
-    hg.findHammingCode(msgBit);
+    vector<int> messageBit = { 0, 1, 0, 1 };
+    hg.findHammingCode(messageBit);
+    cout<<endl;
+    cout<<"----------------------------------------------------------------"<<endl;
 
     return 0;
 

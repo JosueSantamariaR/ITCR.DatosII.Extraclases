@@ -1,96 +1,93 @@
 #include "Hamming.h"
 
-// Function to generate hamming code
-vector<int> Hamming::generateHammingCode(
-        vector<int> msgBits, int m, int r)
-{
-    // Stores the Hamming Code
-    vector<int> hammingCode(r + m);
 
-    // Find positions of redundant bits
+vector<int> Hamming::initHamming(vector<int> completeMessageBits, int m, int r) {
+
+
+    /// Vector utilizado para guardar el hamming code.
+    vector<int> hammingSave(r + m);
+
+
+    /// Encuentra las posiciones de los bits redundantes y las asigna como -1.
+    /// Los bits redundantes se obtienen por medio de la potencia de 2.
+
     for (int i = 0; i < r; ++i) {
-
-        // Placing -1 at redundant bits
-        // place to identify it later
-        hammingCode[pow(2, i) - 1] = -1;
+        hammingSave[pow(2, i) - 1] = -1;
     }
 
+
+
+
+    /// Agrega al hammingSave los valores del mensaje que se ingresa, en las posiciones que son
+    /// diferentes a las posiciones de los bits redundantes, esto para ir construyendo
+    /// el hamming code completo.
     int j = 0;
-
-    // Iterate to update the code
     for (int i = 0; i < (r + m); i++) {
-
-        // Placing msgBits where -1 is
-        // absent i.e., except redundant
-        // bits all postions are msgBits
-        if (hammingCode[i] != -1) {
-            hammingCode[i] = msgBits[j];
+        if (hammingSave[i] != -1) {
+            hammingSave[i] = completeMessageBits[j];
             j++;
         }
     }
 
+
     for (int i = 0; i < (r + m); i++) {
 
-        // If current bit is not redundant
-        // bit then continue
-        if (hammingCode[i] != -1)
+        /// Compara no es un bit redundante y continua
+        if (hammingSave[i] != -1) {
             continue;
+        }
+
 
         int x = log2(i + 1);
         int one_count = 0;
 
-        // Find msg bits containing
-        // set bit at x'th position
-        for (int j = i + 2;
-             j <= (r + m); ++j) {
+
+        /// Busca los bits del mensaje que contienen uno para definir una paridad
+        for (int j = i + 2;j <= (r + m); ++j) {
 
             if (j & (1 << x)) {
-                if (hammingCode[j - 1] == 1) {
+                if (hammingSave[j - 1] == 1) {
                     one_count++;
                 }
             }
         }
 
-        // Generating hamming code for
-        // even parity
+        /// Generando el hammingcode para paridad par
         if (one_count % 2 == 0) {
-            hammingCode[i] = 0;
-        }
-        else {
-            hammingCode[i] = 1;
+            hammingSave[i] = 0;
+        } else {
+            hammingSave[i] = 1;
         }
     }
 
-    // Return the generated code
-    return hammingCode;
+    ///Retorna el hamming code generado
+
+    return hammingSave;
 }
 
-// Function to find the hamming code
-// of the given message bit msgBit[]
-void Hamming::findHammingCode(vector<int>& msgBit)
-{
 
-    // Message bit size
+void Hamming::findHammingCode(vector<int> &msgBit) {
+
+    /// Se inicializa la longitud del mensaje.
     int m = msgBit.size();
 
-    // r is the number of redundant bits
+    /// Se inicializa la cantidad de bits redundantes.
     int r = 1;
 
-    // Find no. of redundant bits
+    /// Encuentra el numero de bits redundantes
     while (pow(2, r) < (m + r + 1)) {
         r++;
     }
 
-    // Generating Code
-    vector<int> ans
-            = generateHammingCode(msgBit, m, r);
+    vector<int> ans = initHamming(msgBit, m, r);
 
-    // Print the code
-    cout << "Message bits are: ";
+    cout << "Mensaje ingresado: ";
     for (int i = 0; i < msgBit.size(); i++)
         cout << msgBit[i] << " ";
 
-    cout << "\nHamming code is: ";
+    cout << endl;
+
+    cout << "Mensaje con hamming: ";
     for (int i = 0; i < ans.size(); i++)
         cout << ans[i] << " ";
 

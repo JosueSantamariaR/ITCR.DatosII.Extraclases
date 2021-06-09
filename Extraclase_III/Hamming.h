@@ -10,7 +10,7 @@
 using namespace std;
 class Hamming{
 public:
-    vector<int> generateHammingCode(vector<int> msgBits, int m, int r);
+    vector<int> initHamming(vector<int> completeMessageBits, int m, int r);
     void findHammingCode(vector<int>& msgBit);
 };
 
