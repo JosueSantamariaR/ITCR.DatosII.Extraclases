@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\gabos\Documents\Extraclase_III
+/snap/clion/152/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/garroakion/Desktop/Tareas/Extraclase_III
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/gabos/Documents/Extraclase_III/cmake-build-debug
+-- Build files have been written to: /home/garroakion/Desktop/Tareas/Extraclase_III/cmake-build-debug

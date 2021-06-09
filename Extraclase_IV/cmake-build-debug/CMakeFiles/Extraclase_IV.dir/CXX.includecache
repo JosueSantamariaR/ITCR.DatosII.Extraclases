@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/garroakion/Desktop/Tareas/Extraclase_IV/SHA1/sha1.cpp
+sha1.h
+/home/garroakion/Desktop/Tareas/Extraclase_IV/SHA1/sha1.h
+iostream
+-
+vector
+-
+string
+-
+
+/home/garroakion/Desktop/Tareas/Extraclase_IV/SHA1/sha1.h
+iostream
+-
+vector
+-
+string
+-
+
+/home/garroakion/Desktop/Tareas/Extraclase_IV/main.cpp
+iostream
+-
+SHA1/sha1.h
+/home/garroakion/Desktop/Tareas/Extraclase_IV/SHA1/sha1.h
+

@@ -1,3 +1,5 @@
+
+
 #include <iostream>
 
 #include "DeteccionParidad.h"
@@ -34,3 +36,5 @@ int main() {
     return 0;
 
 }
+
+
