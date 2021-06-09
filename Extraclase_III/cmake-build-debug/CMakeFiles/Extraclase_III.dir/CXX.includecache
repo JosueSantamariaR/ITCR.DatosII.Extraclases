@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/gabos/Documents/Extraclase_III/DeteccionParidad.cpp
+DeteccionParidad.h
+C:/Users/gabos/Documents/Extraclase_III/DeteccionParidad.h
+
+C:/Users/gabos/Documents/Extraclase_III/DeteccionParidad.h
+
+C:/Users/gabos/Documents/Extraclase_III/Hamming.cpp
+Hamming.h
+C:/Users/gabos/Documents/Extraclase_III/Hamming.h
+
+C:/Users/gabos/Documents/Extraclase_III/Hamming.h
+bits/stdc++.h
+-
+
+C:/Users/gabos/Documents/Extraclase_III/main.cpp
+iostream
+-
+DeteccionParidad.h
+C:/Users/gabos/Documents/Extraclase_III/DeteccionParidad.h
+Hamming.h
+C:/Users/gabos/Documents/Extraclase_III/Hamming.h
+iostream
+-
+

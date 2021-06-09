@@ -1,2 +1,0 @@
-C:\mingw64\bin\ar.exe qc libExtraclases_III.a CMakeFiles/Extraclases_III.dir/main.cpp.obj CMakeFiles/Extraclases_III.dir/DetecciónParidad.cpp.obj CMakeFiles/Extraclases_III.dir/Hamming.cpp.obj
-C:\mingw64\bin\ranlib.exe libExtraclases_III.a
