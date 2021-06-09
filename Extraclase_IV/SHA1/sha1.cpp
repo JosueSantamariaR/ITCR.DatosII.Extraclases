@@ -109,6 +109,7 @@ void sha1::shaRun(string text) {
     printf("%08x%08x%08x%08x%08x\n\n", A1, B1, C1, D1, E1);
 }
 
+
 sha1::sha1() {
 
 }

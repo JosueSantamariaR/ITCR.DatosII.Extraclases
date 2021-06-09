@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/garroakion/Desktop/Tareas/Extraclase_IV/MD5/md5.cpp">
+			<Option target="Extraclase_IV"/>
+		</Unit>
+		<Unit filename="/home/garroakion/Desktop/Tareas/Extraclase_IV/MD5/md5.h">
+			<Option target="Extraclase_IV"/>
+		</Unit>
 		<Unit filename="/home/garroakion/Desktop/Tareas/Extraclase_IV/SHA1/sha1.cpp">
 			<Option target="Extraclase_IV"/>
 		</Unit>

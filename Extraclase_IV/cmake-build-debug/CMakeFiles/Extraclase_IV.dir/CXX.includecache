@@ -6,12 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/home/garroakion/Desktop/Tareas/Extraclase_IV/SHA1/sha1.cpp
-sha1.h
-/home/garroakion/Desktop/Tareas/Extraclase_IV/SHA1/sha1.h
-iostream
+/home/garroakion/Desktop/Tareas/Extraclase_IV/MD5/md5.h
+stdio.h
 -
-vector
+string.h
+-
+stdlib.h
+-
+iostream
 -
 string
 -
@@ -29,4 +31,6 @@ iostream
 -
 SHA1/sha1.h
 /home/garroakion/Desktop/Tareas/Extraclase_IV/SHA1/sha1.h
+MD5/md5.h
+/home/garroakion/Desktop/Tareas/Extraclase_IV/MD5/md5.h
 

@@ -142,6 +142,33 @@ Extraclase_IV/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Extraclase_IV.dir/build.make CMakeFiles/Extraclase_IV.dir/build
 .PHONY : Extraclase_IV/fast
 
+MD5/md5.o: MD5/md5.cpp.o
+
+.PHONY : MD5/md5.o
+
+# target to build an object file
+MD5/md5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Extraclase_IV.dir/build.make CMakeFiles/Extraclase_IV.dir/MD5/md5.cpp.o
+.PHONY : MD5/md5.cpp.o
+
+MD5/md5.i: MD5/md5.cpp.i
+
+.PHONY : MD5/md5.i
+
+# target to preprocess a source file
+MD5/md5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Extraclase_IV.dir/build.make CMakeFiles/Extraclase_IV.dir/MD5/md5.cpp.i
+.PHONY : MD5/md5.cpp.i
+
+MD5/md5.s: MD5/md5.cpp.s
+
+.PHONY : MD5/md5.s
+
+# target to generate assembly for a file
+MD5/md5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Extraclase_IV.dir/build.make CMakeFiles/Extraclase_IV.dir/MD5/md5.cpp.s
+.PHONY : MD5/md5.cpp.s
+
 SHA1/sha1.o: SHA1/sha1.cpp.o
 
 .PHONY : SHA1/sha1.o
@@ -205,6 +232,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Extraclase_IV"
+	@echo "... MD5/md5.o"
+	@echo "... MD5/md5.i"
+	@echo "... MD5/md5.s"
 	@echo "... SHA1/sha1.o"
 	@echo "... SHA1/sha1.i"
 	@echo "... SHA1/sha1.s"
