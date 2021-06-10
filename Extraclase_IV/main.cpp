@@ -15,8 +15,8 @@ int main() {
 
     cout<<"-----------------------MD5-------------------------"<<endl;
     md5 md;
-    uint8 msg[1000] = "admin";
-    md.solve(msg, 5);
+    uint8 msg[1000] = "prueba";
+    md.solucion(msg, 5);
 
     return 0;
 }

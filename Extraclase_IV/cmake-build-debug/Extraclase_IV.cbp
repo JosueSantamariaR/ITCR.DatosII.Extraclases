@@ -8,96 +8,94 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug"/>
+				<Option working_dir="C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Extraclase_IV">
-				<Option output="/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Extraclase_IV" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug"/>
+				<Option output="C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Extraclase_IV.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/10"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
-					<Add directory="/usr/include/c++/10/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 Extraclase_IV"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 Extraclase_IV"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Extraclase_IV/fast">
-				<Option output="/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Extraclase_IV" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug"/>
+				<Option output="C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Extraclase_IV.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/10"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
-					<Add directory="/usr/include/c++/10/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 Extraclase_IV/fast"/>
-					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/garroakion/Desktop/Tareas/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 Extraclase_IV/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/gabos/Documentos/Extraclase_IV/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/garroakion/Desktop/Tareas/Extraclase_IV/MD5/md5.cpp">
+		<Unit filename="C:/Users/gabos/Documentos/Extraclase_IV/MD5/md5.cpp">
 			<Option target="Extraclase_IV"/>
 		</Unit>
-		<Unit filename="/home/garroakion/Desktop/Tareas/Extraclase_IV/MD5/md5.h">
+		<Unit filename="C:/Users/gabos/Documentos/Extraclase_IV/MD5/md5.h">
 			<Option target="Extraclase_IV"/>
 		</Unit>
-		<Unit filename="/home/garroakion/Desktop/Tareas/Extraclase_IV/SHA1/sha1.cpp">
+		<Unit filename="C:/Users/gabos/Documentos/Extraclase_IV/SHA1/sha1.cpp">
 			<Option target="Extraclase_IV"/>
 		</Unit>
-		<Unit filename="/home/garroakion/Desktop/Tareas/Extraclase_IV/SHA1/sha1.h">
+		<Unit filename="C:/Users/gabos/Documentos/Extraclase_IV/SHA1/sha1.h">
 			<Option target="Extraclase_IV"/>
 		</Unit>
-		<Unit filename="/home/garroakion/Desktop/Tareas/Extraclase_IV/main.cpp">
+		<Unit filename="C:/Users/gabos/Documentos/Extraclase_IV/main.cpp">
 			<Option target="Extraclase_IV"/>
 		</Unit>
-		<Unit filename="/home/garroakion/Desktop/Tareas/Extraclase_IV/CMakeLists.txt">
+		<Unit filename="C:/Users/gabos/Documentos/Extraclase_IV/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

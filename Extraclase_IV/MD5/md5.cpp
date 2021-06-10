@@ -1,19 +1,18 @@
 
 #include "md5.h"
 
-void md5::add(uint8 *msg) {
+void md5::agregar(uint8 *msg, uint32 Len) {
+    /**
+     * Len es la longitud de la cadena,
+     * Len*8 identifica la longitud en bits del binario
+     */
 
-}
-
-void md5::add(uint8 *msg, uint32 Len) {
-    // Len is the length of the string, and Len*8 identifies the bit length of the binary
-    int Msg_len = 8*Len; // original message binary bit length
-    uint32 msg_length = Len; // original message length (character)
+    uint32 msg_length = Len;
     uint32 now_len = Len*8;
     now_len += 72;
     uint32 num0 = 0;
-    num0 = (512 - now_len % 512) / 8; // Calculate the number of 0s that need to be filled
-    msg[msg_length] = 0x80; //fill 1 followed by 7 0 (binary)
+    num0 = (512 - now_len % 512) / 8; // Calcular el número de ceros que hay que rellenar
+    msg[msg_length] = 0x80;
     msg_length += 1;
 
     uint32 i;
@@ -21,7 +20,12 @@ void md5::add(uint8 *msg, uint32 Len) {
         msg[msg_length] = 0;
         msg_length++;
     }
-    // fill the 64-bit original string length at the end
+    /**
+     * rellenar la longitud de la
+     * cadena original de 64 bits
+     * al final
+     * **/
+
     uint8 c1 = (msg_len >> 56) & 0xff;
     uint8 c2 = (msg_len >> 48) & 0xff;
     uint8 c3 = (msg_len >> 40) & 0xff;
@@ -41,7 +45,7 @@ void md5::add(uint8 *msg, uint32 Len) {
     msg_len = msg_length;
 }
 
-uint32 md5::get_loop_count() {
+uint32 md5::get_Contador() {
     return msg_len * 8 / 512;
 }
 
@@ -92,10 +96,10 @@ void md5::II(uint32 *a, uint32 *b, uint32 *c, uint32 *d, uint32 M, uint32 s, uin
     (*a) += (*b);
 }
 
-void md5::one_step(const uint8 *const msg) {
+void md5::pasos(const uint8 *const msg) {
     uint32 M[16];
     uint32 i, j;
-    // Change the message into 16 32-bit unsigned numbers
+    // Cambiar el mensaje de 16 a 32 bits
     for(i = 0, j = 0; i < 16 && j < 512; ++i, j += 4)
         M[i] = (uint32)(msg[j]) | (msg[j+1] << 8) | (msg[j+2] << 16) | (msg[j+3] << 24);
 
@@ -178,12 +182,12 @@ void md5::one_step(const uint8 *const msg) {
     D += d;
 }
 
-void md5::GetHexStr(unsigned int num_str) {
+void md5::get_Hexa(unsigned int num_str) {
     std::string hexstr = "";
     char szch[] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f' };
     unsigned char *tmptr = (unsigned char *)&num_str;
     int len = sizeof(num_str);
-    // little endian, reverse print
+
     for (int i = 0; i < len; i++){
         unsigned char ch = tmptr[i] & 0xF0;
         ch = ch >> 4;
@@ -193,18 +197,18 @@ void md5::GetHexStr(unsigned int num_str) {
     }
     cout << hexstr ;
 }
-
-void md5::solve(uint8 *msg, uint32 Len) {
-    add(msg, Len);
-    loop_count = get_loop_count();
+//Función de ejecución del programa(solución)
+void md5::solucion(uint8 *msg, uint32 Len) {
+    agregar(msg, Len);
+    loop_count = get_Contador();
     uint32 i;
     for(i = 0; i < loop_count; ++i)
-        one_step(msg+64*i);
+        pasos(msg+64*i);
 
-    GetHexStr(A);
-    GetHexStr(B);
-    GetHexStr(C);
-    GetHexStr(D);
+    get_Hexa(A);
+    get_Hexa(B);
+    get_Hexa(C);
+    get_Hexa(D);
 }
 
 md5::md5() {

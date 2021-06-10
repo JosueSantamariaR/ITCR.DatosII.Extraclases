@@ -26,12 +26,12 @@ public:
     uint64 msg_len;
     md5();
 
-    void add(uint8 *msg);
+    void agregar(uint8 *msg);
 
 
-    void add(uint8 *msg, uint32 Len);
+    void agregar(uint8 *msg, uint32 Len);
 
-    uint32 get_loop_count();
+    uint32 get_Contador();
 
     uint32 F(uint32 X, uint32 Y, uint32 Z);
 
@@ -51,12 +51,12 @@ public:
 
     void II(uint32 *a, uint32 *b, uint32 *c, uint32 *d, uint32 M, uint32 s, uint32 t);
 
-    void one_step(const uint8 *const msg);
+    void pasos(const uint8 *const msg);
 
 
-    void GetHexStr(unsigned int num_str);
+    void get_Hexa(unsigned int num_str);
 
-    void solve(uint8 *msg, uint32 Len);
+    void solucion(uint8 *msg, uint32 Len);
 
 
 };

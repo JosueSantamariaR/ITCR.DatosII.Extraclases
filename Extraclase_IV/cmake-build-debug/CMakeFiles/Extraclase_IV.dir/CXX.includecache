@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/garroakion/Desktop/Tareas/Extraclase_IV/MD5/md5.h
+C:/Users/gabos/Documentos/Extraclase_IV/MD5/md5.cpp
+md5.h
+C:/Users/gabos/Documentos/Extraclase_IV/MD5/md5.h
+
+C:/Users/gabos/Documentos/Extraclase_IV/MD5/md5.h
 stdio.h
 -
 string.h
@@ -18,7 +22,7 @@ iostream
 string
 -
 
-/home/garroakion/Desktop/Tareas/Extraclase_IV/SHA1/sha1.h
+C:/Users/gabos/Documentos/Extraclase_IV/SHA1/sha1.h
 iostream
 -
 vector
@@ -26,11 +30,11 @@ vector
 string
 -
 
-/home/garroakion/Desktop/Tareas/Extraclase_IV/main.cpp
+C:/Users/gabos/Documentos/Extraclase_IV/main.cpp
 iostream
 -
 SHA1/sha1.h
-/home/garroakion/Desktop/Tareas/Extraclase_IV/SHA1/sha1.h
+C:/Users/gabos/Documentos/Extraclase_IV/SHA1/sha1.h
 MD5/md5.h
-/home/garroakion/Desktop/Tareas/Extraclase_IV/MD5/md5.h
+C:/Users/gabos/Documentos/Extraclase_IV/MD5/md5.h
 

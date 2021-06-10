@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/garroakion/Desktop/Tareas/Extraclase_III/DeteccionParidad.cpp" "/home/garroakion/Desktop/Tareas/Extraclase_III/cmake-build-debug/CMakeFiles/Extraclase_III.dir/DeteccionParidad.cpp.o"
-  "/home/garroakion/Desktop/Tareas/Extraclase_III/Hamming.cpp" "/home/garroakion/Desktop/Tareas/Extraclase_III/cmake-build-debug/CMakeFiles/Extraclase_III.dir/Hamming.cpp.o"
-  "/home/garroakion/Desktop/Tareas/Extraclase_III/main.cpp" "/home/garroakion/Desktop/Tareas/Extraclase_III/cmake-build-debug/CMakeFiles/Extraclase_III.dir/main.cpp.o"
+  "C:/Users/gabos/Documentos/Extraclase_III/DeteccionParidad.cpp" "C:/Users/gabos/Documentos/Extraclase_III/cmake-build-debug/CMakeFiles/Extraclase_III.dir/DeteccionParidad.cpp.obj"
+  "C:/Users/gabos/Documentos/Extraclase_III/Hamming.cpp" "C:/Users/gabos/Documentos/Extraclase_III/cmake-build-debug/CMakeFiles/Extraclase_III.dir/Hamming.cpp.obj"
+  "C:/Users/gabos/Documentos/Extraclase_III/main.cpp" "C:/Users/gabos/Documentos/Extraclase_III/cmake-build-debug/CMakeFiles/Extraclase_III.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
